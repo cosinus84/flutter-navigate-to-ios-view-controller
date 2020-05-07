@@ -122,19 +122,11 @@
 		F339C59A2463F06C0017A296 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F339C5AE2463FC9C0017A296 /* Flutter */,
 				F339C5A92463F35B0017A296 /* App */,
 				F339C5A22463F33B0017A296 /* News */,
-				F339C5A12463F31D0017A296 /* Flutter */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		F339C5A12463F31D0017A296 /* Flutter */ = {
-			isa = PBXGroup;
-			children = (
-				F339C59F2463F2C20017A296 /* FlutterCoordinator.swift */,
-			);
-			name = Flutter;
 			sourceTree = "<group>";
 		};
 		F339C5A22463F33B0017A296 /* News */ = {
@@ -154,6 +146,14 @@
 				F339C5AB2463F3830017A296 /* Coordinator.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		F339C5AE2463FC9C0017A296 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				F339C59F2463F2C20017A296 /* FlutterCoordinator.swift */,
+			);
+			path = Flutter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
